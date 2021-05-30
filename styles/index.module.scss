@@ -44,9 +44,15 @@
 .descriptions_container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
   font-size: 1.5rem;
   text-align: center;
+
+  * {
+    max-width: 80vw;
+  }
 
   ul {
     list-style: "-";
@@ -61,6 +67,10 @@
     padding: 1rem;
     border: 0.5rem solid rgba(0, 0, 0, 0);
     border-radius: 1rem;
+
+    width: fit-content;
+    margin: 0;
+    display: inline-flex;
   }
 
   svg {
