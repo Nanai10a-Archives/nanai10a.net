@@ -3,9 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@types/dompurify': ^2.2.2
   '@types/feather-icons': ^4.7.0
-  '@types/highlight.js': ^10.1.0
   '@types/marked': ^2.0.2
-  '@types/next': ^9.0.0
   '@types/node-fetch': ^2.5.10
   '@types/react': ^17.0.5
   '@types/react-dom': ^17.0.5
@@ -36,9 +34,7 @@ specifiers:
 dependencies:
   '@types/dompurify': 2.2.2
   '@types/feather-icons': 4.7.0
-  '@types/highlight.js': 10.1.0
   '@types/marked': 2.0.3
-  '@types/next': 9.0.0_17106d697386d9d4e075b8e94419bef6
   '@types/node-fetch': 2.5.10
   '@types/react': 17.0.6
   '@types/react-dom': 17.0.5
@@ -228,34 +224,12 @@ packages:
     resolution: {integrity: sha512-vflOrmlHMGIGVN4AEl6ErPCNKBLcP1ehEpLqnJkTgf69r5QmJzy7BF1WzbBc8Hqs9KffROPT/JqlSKH4o5vB/w==}
     dev: false
 
-  /@types/highlight.js/10.1.0:
-    resolution: {integrity: sha512-77hF2dGBsOgnvZll1vymYiNUtqJ8cJfXPD6GG/2M0aLRc29PkvB7Au6sIDjIEFcSICBhCh2+Pyq6WSRS7LUm6A==}
-    deprecated: This is a stub types definition. highlight.js provides its own type definitions, so you do not need this installed.
-    dependencies:
-      highlight.js: 10.7.2
-    dev: false
-
   /@types/json-schema/7.0.7:
     resolution: {integrity: sha512-cxWFQVseBm6O9Gbw1IWb8r6OS4OhSt3hPZLkFApLjM8TEXROBuQGLAH2i2gZpcXdLBIrpXuTDhH7Vbm1iXmNGA==}
     dev: false
 
   /@types/marked/2.0.3:
     resolution: {integrity: sha512-lbhSN1rht/tQ+dSWxawCzGgTfxe9DB31iLgiT1ZVT5lshpam/nyOA1m3tKHRoNPctB2ukSL22JZI5Fr+WI/zYg==}
-    dev: false
-
-  /@types/next/9.0.0_17106d697386d9d4e075b8e94419bef6:
-    resolution: {integrity: sha512-gnBXM8rP1mnCgT1uE2z8SnpFTKRWReJlhbZLZkOLq/CH1ifvTNwjIVtXvsywTy1dwVklf+y/MB0Eh6FOa94yrg==}
-    deprecated: This is a stub types definition. next provides its own type definitions, so you do not need this installed.
-    dependencies:
-      next: 10.2.2_17106d697386d9d4e075b8e94419bef6
-    transitivePeerDependencies:
-      - fibers
-      - node-sass
-      - react
-      - react-dom
-      - sass
-      - typescript
-      - webpack
     dev: false
 
   /@types/node-fetch/2.5.10:
