@@ -54,6 +54,10 @@
     max-width: 80vw;
   }
 
+  a {
+    color: $color_1;
+  }
+
   ul {
     list-style: "-";
     transform: translateX(-1.25rem);
