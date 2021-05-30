@@ -1,0 +1,80 @@
+@import "styles/utils/color";
+
+.header {
+  --header-font-size: 3rem;
+  --offset-height: calc(50vh - var(--header-font-size) / 2);
+
+  position: sticky;
+  top: calc(-1 * var(--offset-height));
+
+  z-index: 10;
+
+  .header_text {
+    font-size: var(--header-font-size);
+
+    text-align: center;
+
+    padding-top: 2rem;
+    background-color: $color_dark;
+    z-index: inherit;
+  }
+
+  .header_wrapper {
+    position: sticky;
+    top: 0;
+  }
+
+  .header_offset_blank {
+    height: var(--offset-height);
+  }
+
+  .arrow_offset {
+    height: calc((50vh - var(--header-font-size) / 2) - 8rem);
+  }
+}
+
+.arrow_after_offset {
+  height: 16rem;
+}
+
+.icon_offset {
+  height: 16rem;
+}
+
+.descriptions_container {
+  display: flex;
+  justify-content: center;
+
+  font-size: 1.5rem;
+  text-align: center;
+
+  ul {
+    list-style: "-";
+    transform: translateX(-1.25rem);
+  }
+
+  pre {
+    text-align: left;
+    font-size: 1.2rem;
+
+    background: rgba(64, 64, 64, 0.3);
+    padding: 1rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0);
+    border-radius: 1rem;
+  }
+
+  svg {
+    transform: translateY(0.25rem);
+  }
+}
+
+.footer {
+  --footer-font-size: 1.5rem;
+
+  padding-bottom: 4rem;
+
+  .footer_text {
+    font-size: var(--footer-font-size);
+    text-align: center;
+  }
+}

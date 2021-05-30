@@ -1,0 +1,11 @@
+@import "styles/utils/color";
+
+.app_container {
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: $color_dark;
+
+  font-family: Roboto, sans-serif;
+  color: $color_1;
+}

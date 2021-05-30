@@ -1,0 +1,58 @@
+.guide_arrow_container {
+  position: absolute;
+  padding-top: calc(100vh - 5rem);
+
+  width: 100vw;
+}
+
+.header_container {
+  position: sticky;
+  top: calc(-192.445vh + 5rem); // FIXME: これ手計算やめたいんだが
+
+  width: 100vw;
+
+  margin-bottom: calc(100vh - 5rem / 2);
+
+  --header-text-font-size: 3rem;
+  --offset-size: calc(50vh - var(--header-text-font-size) / 2);
+
+  .header_bar_container {
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header_bar_text {
+    font-size: var(--header-text-font-size);
+    text-align: center;
+
+    position: sticky;
+    top: calc(50vh - var(--header-text-font-size) / 2);
+  }
+}
+
+.header_icon_container {
+  margin-top: calc(50vh - 5rem / 2);
+}
+
+.header_icon_wrapper {
+  position: sticky;
+  top: calc(50vh - 128px - 2rem)
+}
+
+.header_icons_rail {
+  height: 25vh;
+}
+
+.header_icon_after {
+  height: 5rem;
+
+  position: sticky;
+  top: 0;
+}

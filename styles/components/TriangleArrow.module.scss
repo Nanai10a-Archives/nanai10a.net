@@ -1,0 +1,37 @@
+@import "styles/utils/color";
+
+@keyframes anim {
+  from {
+    transform: translateY(-1rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.hover {
+  @extend .no_hover;
+
+  transform: translateY(1rem);
+  animation: anim 1s infinite alternate;
+}
+
+.no_hover {}
+
+.container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;
+}
+
+.out_polygon {
+  fill: $color_3;
+}
+
+.inner_polygon {
+  fill: $color_2;
+}
